@@ -1,0 +1,150 @@
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    background-color:rgb(253, 245, 245);
+}
+
+.section{
+    width: 100%;
+    height: auto;
+    /* border: 1px solid red; */
+    padding: 2rem 0;
+}
+
+.container{
+    width: 90%;
+    height: auto;
+    /* border: 1px solid blue; */
+    margin: 0 auto;
+}
+
+
+.nav{
+    width: 100%;
+    height: 3rem;
+    border-radius: 2rem;
+    margin: 1rem auto;
+    background-color: rgb(207, 201, 201);
+}
+
+.in{
+    margin:0.3rem auto;
+    margin-left: 1rem;
+    padding: 0.5rem;
+    background-color: transparent;
+    border: none;
+
+    font-size: 1.3rem;
+    font-family: sans-serif;
+    font-weight: 500;
+}
+
+.in:hover{
+    border: none;
+    outline: none;
+}
+
+.box-cover{
+    width: 100%;
+    padding: 1rem 0;
+    /* border: 1px solid brown; */
+    
+
+    display: flex;
+    justify-content: space-between;
+    
+
+
+}
+
+
+.box{
+    width: 35%;
+    border: 1px solid pink;
+    position: relative;
+    flex-direction: column;
+    height: 8rem;
+    border-radius: 1rem;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    overflow: hidden;
+}
+
+.img{
+    width: 12rem;
+    /* border: 1px solid red; */
+}
+
+.icon{
+    width: 2rem;
+    position: absolute;
+    bottom: 6rem;
+    left: 5rem;
+}
+
+
+.box1{
+    width: 65%;
+    /* border: 1px solid blue; */
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 0.3rem;
+
+}
+
+
+.tex1{
+    font-size: 1.4rem;
+    margin-left: 1rem;
+    font-family: sans-serif;
+    font-weight: 900;
+}
+
+
+.tex2{
+    font-size: 1.1rem;
+    font-family: sans-serif;
+    font-weight: 900;
+    margin-left: 0.4rem;
+}
+
+.tex3{
+    font-family: sans-serif;
+    font-size: 0.8rem;
+    margin-left: 1rem;
+}
+
+.cir{
+    width: 1.2rem;
+    height: 1.2rem;
+    background-color: rgb(2, 71, 2);
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 1rem;
+}
+
+
+.star{
+    color: white;
+    position: relative;
+    bottom: 0.12rem;
+
+}
+
+
+.star-cover{
+    display: flex;
+}

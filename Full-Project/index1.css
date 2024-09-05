@@ -1,0 +1,160 @@
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    background-color:rgb(253, 245, 245);
+}
+
+.section{
+    width: 100%;
+    height: auto;
+    /* border: 1px solid red; */
+    padding: 2rem 0;
+}
+
+.container{
+    width: 90%;
+    height: auto;
+    /* border: 1px solid blue; */
+    margin: 0 auto;
+}
+
+
+
+.cir{
+    margin: 0 auto;
+    width: 85%;
+    height: 17rem;
+    border-radius: 50%;
+    background-color: white;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.img{
+    margin-top: 1rem;
+    width: 11rem;
+}
+
+.tex1{
+    color: black;
+    font-size: 2rem;
+    font-family: sans-serif;
+    font-weight: 900;
+
+    position: relative;
+    bottom: 1rem;
+}
+
+
+.tex2{
+    font-size: 1.4rem;
+    font-family: sans-serif;
+    font-weight: 700;
+    color: black;
+    margin-left: 1.5rem;
+    margin-top: 1.5rem;
+    
+}
+
+.in{
+    width: 85%;
+    /* border: 1px solid black; */
+    padding: 0.8rem;
+    margin: 0 auto;
+    border-radius: 0.5rem;
+    background-color:transparent;
+}
+
+.in.hover{
+    outline: none;
+}
+
+input{
+    border: none;
+    font-size: 1.2rem;
+    background-color:transparent; 
+    outline: none;
+    color: black;
+}
+
+input.hover{
+    outline: none;
+}
+
+
+.line{
+    border: 1px solid black;
+    width: 85%;
+    margin: 0 auto;
+}
+
+.box1{
+    width: 85%;
+    /* border: 1px solid; */
+    margin: 1.5rem auto;
+    padding: 0.5rem;
+
+
+
+    display: flex;
+    justify-content: space-between;
+}
+
+.tex3{
+    font-size: 1.2rem;
+    font-family: sans-serif;
+    font-weight: 500;
+}
+
+.tex3:hover{
+    color: blue;
+}
+
+.tex4{
+    color: blue;
+    font-size: 1.15rem;
+    font-family: sans-serif;
+}
+
+.tex4:hover{
+    text-decoration: underline;
+}
+
+
+.box2{
+    margin-top: 2rem;
+    border-radius: 0.5rem;
+    margin: 1.4rem auto;
+    width: 90%;
+    padding: 0.5rem;
+    background-color: rgba(97, 97, 240, 0.644);
+    height: 2rem;
+
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+    font-size: 1.5rem;
+    color: white;
+
+
+    transition: 1s ease;
+}
+
+.box2:hover{
+    background-color: blue;
+}
+
+
